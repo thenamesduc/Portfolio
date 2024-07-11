@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+.navigation ul {
+  display: flex;
+  justify-content: space-around;
+}
+.navigation ul li {
+  list-style: none;
+  padding: 20px 20px;
+  color: blanchedalmond;
+}
+.navigation p {
+  padding: 20px 20px;
+  color: blanchedalmond;
+}
+.navigaion p:hover {
+  background-color: beige;
+  color: rgb(60, 46, 27);
+}
+li:hover {
+  background-color: beige;
+  color: rgb(60, 46, 27);
+}
+.introductionimage img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.introduction {
+  padding: 100px;
+  background-color: rgb(168, 2, 2);
+  color: blanchedalmond;
+}
+.introductionflex {
+  display: flex;
+}
+.introductionflex ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  font-family: monospace;
+}
+.leanhduc {
+  text-align: center;
+  font-size: 50px;
+  font-family: monospace;
+}
+.student {
+  text-align: center;
+  font-family: monospace;
+}
+.aboutp {
+  text-align: center;
+  font-family: monospace;
+  padding: 50px;
+}
+.favourites {
+  background-color: rgb(72, 47, 12);
+  color: blanchedalmond;
+  font-family: monospace;
+  padding: 100px;
+}
+.favourites h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.hobbies1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px 10px;
+}
+.hobbies2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 100px 10px;
+}
+div.hobby {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border: 1px solid grey;
+  background-color: antiquewhite;
+  border-radius: 10px;
+  width: 9%;
+  height: 250px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+.ten {
+  padding: 15px;
+  text-align: center;
+}
